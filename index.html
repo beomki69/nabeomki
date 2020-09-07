@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <title>Na Beom Ki</title>
+    <link rel="icon" type="image/svg" href="img/logo.svg" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
+      integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/main.css" />
+    <script src="js/header.js" defer></script>
+    <script src="js/topBtn.js" defer></script>
+    <script src="js/sectionFadeIn.js" defer></script>
+  </head>
+
+  <body>
+    <div id="wrap">
+      <header>
+        <a href="javascript:;" class="mobileOpen"
+          ><i class="fas fa-bars"></i
+        ></a>
+        <div class="header__inner">
+          <nav class="gnb">
+            <a href="javascript:;">Hello</a>
+            <a href="javascript:;">About</a>
+            <a href="javascript:;">Skills</a>
+            <a href="javascript:;">Project</a>
+            <a href="javascript:;">Contact</a>
+            <span class="gnb__bar"></span>
+          </nav>
+          <a href="javascript:;" class="mobileClose"
+            ><i class="fas fa-times"></i
+          ></a>
+        </div>
+      </header>
+      <main>
+        <section class="hello">
+          <div class="section__inner helloInner">
+            <p class="helloInner__suptit">
+              <span>&lt;Hello World!👋/&gt;</span>
+            </p>
+            <h1 class="helloInner__title">
+              <span>안녕하세요</span>
+              <span>프로그래밍을 공부하는</span>
+              <span><strong>나범기</strong>입니다.</span>
+            </h1>
+            <p class="helloInner__contact">
+              <a href="mailto:beomki69@gmail.com"
+                ><i class="far fa-paper-plane"></i>Contact Me</a
+              >
+            </p>
+          </div>
+        </section>
+        <section class="about">
+          <div class="section__inner aboutInner">
+            <h2 class="aboutInner__title"><span>About Me</span></h2>
+            <p class="aboutInner__text">
+              안녕하세요 현재 프론트엔드 개발을 공부하는 나범기 입니다. <br />
+              HTML, CSS, Javascript 및 jQuery를 기본으로 몇가지 API와 Babel등을
+              이용해 프로젝트를 진행했습니다. <br />
+              백엔드에도 관심이 많아 현재는 NodeJS, Pug, Sass 등을 공부하고
+              있습니다.
+            </p>
+          </div>
+        </section>
+        <section class="skills">
+          <div class="section__inner skillsInner">
+            <h2 class="skillsInner__title"><span>Skills</span></h2>
+            <div class="skillsInner__skillsContainer container">
+              <article
+                class="skillsContainer__skillsbox designBox containerList"
+              >
+                <h3 class="skillsbox__title designBoxTitle">
+                  <i class="fas fa-palette fa-2x"></i>디자인 도구
+                </h3>
+                <ul class="skillsbox__listContainer designsContainer">
+                  <li class="designsContainer__list">Photoshop</li>
+                  <li class="designsContainer__list">Illustrator</li>
+                </ul>
+              </article>
+              <article class="skillsContainer__skillsbox langBox containerList">
+                <h3 class="skillsbox__title langBoxTitle">
+                  <i class="fas fa-code fa-2x"></i>사용 언어
+                </h3>
+                <ul class="skillsbox__listContainer langsContainer">
+                  <li class="langsContainer__list">HTML</li>
+                  <li class="langsContainer__list">CSS</li>
+                  <li class="langsContainer__list">Javascript</li>
+                  <li class="langsContainer__list">JQuery</li>
+                </ul>
+              </article>
+              <article class="skillsContainer__skillsbox toolBox containerList">
+                <h3 class="skillsbox__title toolBoxTitle">
+                  <i class="fas fa-laptop-code fa-2x"></i>개발 도구
+                </h3>
+                <ul class="skillsbox__listContainer toolsContainer">
+                  <li class="toolsContainer__list">Visual Studio Code</li>
+                  <li class="toolsContainer__list">Brackets</li>
+                  <li class="toolsContainer__list">Github</li>
+                  <li class="toolsContainer__list">CodeSandbox</li>
+                </ul>
+              </article>
+            </div>
+          </div>
+        </section>
+        <section class="project">
+          <div class="section__inner projectInner">
+            <h2 class="projectInner__title"><span>Project</span></h2>
+            <div class="projectInner__projectContainer container">
+              <article class="projectContainer__projectList containerList">
+                <img
+                  src="img/project1.jpg"
+                  alt="첫번째 프로젝트"
+                  class="projectList__preview"
+                />
+                <div class="projectList__projectTextBox">
+                  <h3 class="projectTextBox__projectTitle">
+                    충무아트센터 리뉴얼
+                  </h3>
+                  <p class="projectTextBox__projectText">
+                    ※ 팀 작업으로 아직 미완성인 부분이 있습니다. ※ <br />
+                    백엔드작업이 아직 진행 중 입니다. <br />
+                    웹 전용사이트로, 아직은 모바일 기기를 지원하지 않습니다.
+                  </p>
+                  <p class="projectTextBox__links">
+                    <a
+                      href="https://github.com/beomki69/artcenter"
+                      target="_blank"
+                      ><i class="fab fa-github"></i> Github</a
+                    >
+                    <a
+                      href="https://beomki69.github.io/artcenter/"
+                      target="_blank"
+                      ><i class="fas fa-link"></i> Link</a
+                    >
+                  </p>
+                </div>
+              </article>
+              <article class="projectContainer__projectList containerList">
+                <img
+                  src="img/project2.jpg"
+                  alt="두번째 프로젝트"
+                  class="projectList__preview"
+                />
+                <div class="projectList__projectTextBox">
+                  <h3 class="projectTextBox__projectTitle">CGV 리뉴얼</h3>
+                  <p class="projectTextBox__projectText">
+                    ※ 아직 미완성인 부분이 있습니다. ※ <br />
+                    회원가입, 예매, 상품 및 영화 상세페이지가 완성되지
+                    않았습니다.
+                  </p>
+                  <p class="projectTextBox__links">
+                    <a
+                      href="https://github.com/beomki69/Theater"
+                      target="_blank"
+                      ><i class="fab fa-github"></i> Github</a
+                    >
+                    <a
+                      href="https://beomki69.github.io/Theater/"
+                      target="_blank"
+                      ><i class="fas fa-link"></i> Link</a
+                    >
+                  </p>
+                </div>
+              </article>
+            </div>
+          </div>
+        </section>
+        <section class="contact">
+          <div class="section__inner contactInner">
+            <h2 class="contactInner__title"><span>Contact</span></h2>
+            <ul class="contactInner__infoContainer container">
+              <li class="infoContainer__infoList containerList">
+                <a href="mailto:beomki69@gmail.com"
+                  ><i class="far fa-envelope"></i> beomki69@gmail.com</a
+                >
+              </li>
+              <li class="infoContainer__infoList containerList">
+                <a href="tel:010-8387-1677"
+                  ><i class="fas fa-mobile-alt"></i> 010-8387-1677</a
+                >
+              </li>
+              <li class="infoContainer__infoList containerList">
+                <a href="https://github.com/beomki69" target="_blank"
+                  ><i class="fab fa-github"></i> Github</a
+                >
+              </li>
+            </ul>
+          </div>
+        </section>
+        <button id="topBtn"><i class="fas fa-angle-up"></i></button>
+      </main>
+      <footer>
+        <p>COPYRIGHT &copy; Na beom-ki. All Rights Reserved.</p>
+      </footer>
+    </div>
+  </body>
+</html>
